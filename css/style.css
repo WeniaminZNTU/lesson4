@@ -1,0 +1,62 @@
+.circle{
+    position: absolute;
+
+    border-radius: 50%;
+
+    height: 135px;
+    width: 135px;
+    border: 1px solid black;
+}
+
+.circle-face{
+    background-color: yellowgreen;
+
+    height: 600px;
+    width: 600px;
+
+    left: 100px;
+    top: 100px;
+}
+
+.leftYey{
+
+    top: 185px;
+    left: 235px;
+
+    background-color: white;
+}
+
+.rightYey{
+
+    top: 185px;
+    left: 440px;
+    background-color: white;
+}
+
+.topSmile{
+    position: absolute;
+    z-index: 1;
+
+    top: 415px;
+    left: 324px;
+
+    height: 150px;
+    width: 150px;
+
+    border-radius: 41%;
+    background-color: yellowgreen;
+}
+
+.bottomSmile{
+    position: absolute;
+
+
+    top: 449px;
+    left: 325px;
+
+    height: 150px;
+    width: 150px;
+
+    border-radius: 45%;
+    background-color: white;
+}
